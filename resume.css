@@ -18,6 +18,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: #f1f1f1;
+    color:red;
 }
 .left {
     position: initial;
