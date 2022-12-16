@@ -1,0 +1,37 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+            
+    justify-content: center;
+    align-items: center;
+   display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #f1f1f1;
+}
+.left {
+    position: initial;
+    
+    padding: 20px;
+   
+}
+.right {
+    position: initial;
+   
+    padding: 20px;
+  
+}
+.image, .Name, .Objective, .Skills, .vitals, .Education, .project, .Declaration  {
+    margin-bottom: 30px;
+}
+
